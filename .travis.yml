@@ -1,0 +1,28 @@
+language: python
+cache:
+  directories:
+  - "$HOME/.cache/pip"
+  - ".git/lfs"
+sudo: false
+branches:
+  only:
+  - master
+python:
+- 3.6
+before_install:
+- openssl aes-256-cbc -K $encrypted_b89d4ac9956c_key -iv $encrypted_b89d4ac9956c_iv
+  -in id_ed25519.enc -out id_ed25519 -d
+- pip install -U --upgrade-strategy=eager pip setuptools wheel
+- echo -e 'wiki.tbbs.me ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC5NslYj+wtriBuKIxJfDRm9E2hnlstWR8durQ6pKvVvP7wjcoXIyAxe41GvJ9SoEhSjF7oVlzlw+zAkzl5WOZ4='
+  >> ~/.ssh/known_hosts
+- eval "$(ssh-agent -s)"
+- chmod 600 id_ed25519
+- ssh-add id_ed25519
+install:
+- pip install -U --upgrade-strategy=eager 'Nikola[extras]'
+script:
+- nikola build && nikola github_deploy -m 'Nikola auto deploy [ci skip]'
+notifications:
+  email:
+    on_success: change
+    on_failure: always
