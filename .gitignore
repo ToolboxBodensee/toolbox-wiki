@@ -2,9 +2,13 @@
 **__pycache__/
 .doit.db
 output/
+.output/
+.cache/
+cache/
 id_rsa
 id_rsa.pub
 id_25519
 id_ed25519
 id_25519.pub
 id_ed25519.pub
+state_data.json

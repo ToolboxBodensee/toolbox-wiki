@@ -1,7 +1,7 @@
 language: python
 cache:
   directories:
-  - "$HOME/.cache/pip"
+  - "$HOME/.cache"
   - ".git/lfs"
 sudo: false
 branches:
@@ -21,7 +21,7 @@ before_install:
 install:
 - pip install -U --upgrade-strategy=eager 'Nikola[extras]'
 script:
-- nikola build && nikola github_deploy -m 'Nikola auto deploy [ci skip]'
+- nikola build && nikola deploy
 notifications:
   email:
     on_success: change
