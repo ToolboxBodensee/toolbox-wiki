@@ -3,8 +3,9 @@
 {% block content_header %}
     <div class="title-block post-format-icon-star">
         <div class="entry-meta">
-            <span class="posted-on">
-                Posted on <a href="{{ post.permalink() }}" rel="bookmark">{{ post.formatted_date('%B %-d, %Y')|e }}</a>
+            <span class="edit-on">
+                <a href="{{ post.source_link() }}">Quelltext</a>
+                <a href="https://github.com/ToolboxBodensee/toolbox-wiki/tree/master{{ post.source_link() }}?edit">Bearbeiten</a>
             </span>
         </div>
         <h1>{{ post.title()|e }}</h1>
