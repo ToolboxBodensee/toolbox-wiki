@@ -21,7 +21,9 @@ before_install:
 install:
 - pip install -U --upgrade-strategy=eager 'Nikola[extras]'
 script:
-- nikola build && nikola deploy
+- nikola build
+- cp .output/assets/.htaccess .output/
+- nikola deploy
 notifications:
   email:
     on_success: change
