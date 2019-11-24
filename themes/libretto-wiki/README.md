@@ -10,6 +10,8 @@ The Theme here is optimized to work as wiki. But you don't have to provide
 any PHP and User Management stuff. You can redirect the Users directly to
 your git, where your website is stored!
 
+This theme contains some hard coded links!
+
 # Theme Highlights
 
 * Classic looks!
