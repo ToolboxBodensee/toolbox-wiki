@@ -153,7 +153,7 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME="libretto"
+THEME="libretto-wiki"
 #THEME = "bootblog4"
 #THEME="monospace" 
 

@@ -1,8 +1,14 @@
+ Libretto Wiki Theme
+=====================
+
 Sophisticated, simple, and classically styled, Libretto is designed to showcase
 your writing prowess! A unique feature of this theme is that it does NOT rely
 on any Javascript. It's built using HTML, CSS and a few fonts. Best of all,
 the theme is responsive - yes, it works on mobiles and tablets too!!
 
+The Theme here is optimized to work as wiki. But you don't have to provide
+any PHP and User Management stuff. You can redirect the Users directly to
+your git, where your website is stored!
 
 # Theme Highlights
 
@@ -14,23 +20,9 @@ the theme is responsive - yes, it works on mobiles and tablets too!!
 * Mobile support! (Looks good on my android phone, at least!)
 * Tag support!
 * No Javascript! (for now..?)
+* Optimized for Wiki Usage
 
 This is my first effort at making a theme and I hope you will enjoy using it!
-
-
-# Official DEMO website
-
-In addition to the demo hosted on themes.getnikola.com, I also maintain a demo
-site dedicated to showcasing the strengths of this theme here,
-
-<https://note2self.abraham-v.com/libretto-theme-for-nikola/>
-
-Speaking of which, the source code for this theme (and demo) is hosted on
-Github,
-
-<https://github.com/note2self-abrahamvarricatt/libretto-theme-for-nikola>
-
-Feel free to report any issues, make suggestions or even better - contribute!
 
 
 # Un-supported features
@@ -53,6 +45,7 @@ As long as it isn't troublesome, I'll try to add it in.
 This theme is based off a Wordpress theme of the same name. You can find the
 original here,
 
+<https://github.com/note2self-abrahamvarricatt/libretto-theme-for-nikola.git>
 <https://wordpress.com/themes/libretto/>
 
 

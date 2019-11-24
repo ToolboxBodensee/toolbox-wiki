@@ -1,0 +1,7 @@
+[Theme]
+engine = jinja
+parent = base-jinja
+author = L3D
+author_url = https://github.com/do1jlr
+based_on = Libretto Theme for Nikola <https://themes.getnikola.com/v7/libretto>
+license = MIT
