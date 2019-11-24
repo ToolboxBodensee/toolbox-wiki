@@ -2,7 +2,7 @@
 .. title: LED-Installationen
 .. slug: led-installationen
 .. date: 2019-11-24 21:12:19 UTC+01:00
-.. tags: led 
+.. tags: led, gebauede 
 .. category: gebauede, led
 .. link: 
 .. description: Wikiseite zu den LED Installationen im Toolbox Gebäude 

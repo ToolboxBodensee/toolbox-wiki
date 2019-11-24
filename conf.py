@@ -140,7 +140,12 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/posts/check-in.html", "Check-In"),
-        ("/categories/", "Tags"),
+        (
+            (
+                ("/posts/gebaeude/led-installationen.html", "LED-Installationen"),
+            ),
+        "Gebäude"),
+        ("/categories/", "Kategorien"),
         ("/rss.xml", "RSS-Feed"),
     ),
 }

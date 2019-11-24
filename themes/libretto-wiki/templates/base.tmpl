@@ -37,8 +37,21 @@
                 <span class="mobile-site-title">{{ blog_title|e }}</span>
             </div>
             <ul class="menu">
-                {% for url, text in navigation_links[lang] %}
+{#                {% for url, text in navigation_links[lang] %}
                     <li><a href="{{ url }}">{{ text|e }}</a></li>
+                {% endfor %}
+#}
+                {% for url, text in navigation_links[lang] %}
+                    {% if isinstance(url, tuple) %}
+                    <li><a>{{ text }}</a>
+                    <ul class="submenu">
+                        {% for suburl, text in url %}
+                        <li><a href="{{suburl}}">{{text}}</a></li>
+                        {% endfor %}
+                    </ul></li>
+                    {% else %}
+                    <li><a href="{{ url }}">{{ text }}</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </nav>
