@@ -1,6 +1,20 @@
 {% extends 'base.tmpl' %}
 
 {% block center_section %}
+            <div class="site-content">
+            <article class="format-standard libretto-long-form">
+                <div class="entry-content">
+                    <h1>Wilkommen auf dem Toolbox Wiki</h1>
+                    <p>In diesem Wiki versuchen wir gemeinsam aktuelle, nützliche und hilfreiche Informationen rund um den Verein <a href="https://toolbox-bodensee.de/">Toolbox Bodensee</a>, die Räumlichkeiten und unsere Projekte zusammen. Ein Wiki lebt vom Mitmachen! Hast du veraltete Informationen gefunden, dann darfst du dies gern auf den aktuellen Stand bringen oder uns ein 'Issue' dazu auf <a href="https://github.com/toolboxbodensee/toolbox-wiki/issues">Github</a> aufmachen.<br/>
+                    Der Zugang zum Wiki erfolgt über Github und ist <b>nicht</b> an die Mitgliedschaft im Verein geknüpft. Wenn du öfter etwas im Wiki machst und niemand von uns daran denkt dir deswegen einen direkten Schreibzugriff zu geben, sprich uns am Donnerstag abend einfach an!</p><br/>
+                    <p>Weitere Informationen zur Toolbox findet ihr auf <a href="https://toolbox-bodensee.de/">toolbox-bodensee.de</a>.<br/>
+                    Wo die Toolbox überhaupt ist, findet sich auf <a href="https://toolbox-bodensee.de/kontakt/">toolbox-bodensee.de/kontakt</a>.
+                </div>
+            </article>
+        </div>
+        <center>
+            <h1>Die neusten Wikibeiträge:</h1>
+        </center>
     {% for post in posts %}
         <div class="site-content">
             <article class="format-standard libretto-long-form">
