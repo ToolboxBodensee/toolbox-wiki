@@ -1,9 +1,9 @@
+os: linux
 language: python
 cache:
   directories:
   - "$HOME/.cache"
   - ".git/lfs"
-sudo: false
 branches:
   only:
   - master
