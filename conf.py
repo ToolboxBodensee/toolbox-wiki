@@ -148,6 +148,7 @@ NAVIGATION_LINKS = {
         (
             (
                 ("/posts/geraete/3d-druck.html", "3D Druck"),
+                ("/posts/geraete/replicator-2.md", "Replicator 2"),
             ),
         "3D Druck"),
         ("/categories/", "Kategorien"),
