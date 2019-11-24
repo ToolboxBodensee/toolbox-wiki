@@ -1,4 +1,6 @@
-# toolbox-wiki
+ toolbox-wiki
+===================
+[![Build Status](https://travis-ci.org/ToolboxBodensee/toolbox-wiki.svg?branch=master)](https://travis-ci.org/ToolboxBodensee/toolbox-wiki)
 Das *neue* Wiki der Toolbox
 
 
