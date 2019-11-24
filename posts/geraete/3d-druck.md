@@ -2,10 +2,10 @@
 .. title: 3D Druck
 .. slug: 3d-druck
 .. date: 2019-11-24 23:27:29 UTC+01:00
-.. tags: 
-.. category: 
+.. tags: 3d-druck, geraete 
+.. category: 3d-druck, geraete
 .. link: 
-.. description: 
+.. description: Allgemeine Informationen zu den 3D Druckern und der Einweisung dafür in der Toolbox
 .. type: text
 -->
 
@@ -69,7 +69,7 @@ Mit allen Slicer Einstellungen sind folgende vertraut:
 
 | Maschine | Status | Druckvolumen | Besonderheiten | Details |
 | -------- | ------ | ------------ | -------------- | ------- |
-| *3D-Drucker* 2PrintBeta Prusa i2 | Zerlegt | | | [[3d-druck:2printbeta_prusa_i2|2PrintBeta Prusa i2]] |
+| *3D-Drucker* 2PrintBeta Prusa i2 | Zerlegt | | | - |
 | *3D-Drucker* Makerbot Replicator 2 | OK | | kein Heizbett | [[3d-druck:makerbot_replicator_2|Makerbot Replicator 2]] |
 | *3D-Drucker* Multec | OK | | direkt Extruder | [[3d-druck:multec|Multec]] |
 | *3D-Drucker* CTC Replicator | works for me | | dual direkt Extruder | [[3d-druck:ctc_replicator|CTC Replicator]] |
